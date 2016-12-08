@@ -10,7 +10,7 @@ import java.io.File;
  * Created by zing on 2016/12/5.
  */
 
-public class AndroidUtils {
+public class SDCardUtil {
     /**
      * 获取缓存路径
      */

@@ -2,7 +2,7 @@ package com.bb.zinglibrary.http.http_client;
 
 import android.content.Context;
 
-import com.bb.zinglibrary.common.AndroidUtils;
+import com.bb.zinglibrary.common.SDCardUtil;
 import com.bb.zinglibrary.http.cookie.PersistentCookieJar;
 import com.bb.zinglibrary.http.cookie.cache.SetCookieCache;
 import com.bb.zinglibrary.http.cookie.persistence.SharedPrefsCookiePersistor;
@@ -89,7 +89,7 @@ public class DefaultOkHttpClient {
         }
 
         if (androidContext != null) {
-            File cacheFile = new File(AndroidUtils.getCacheDir(androidContext), "httpCache");
+            File cacheFile = new File(SDCardUtil.getCacheDir(androidContext), "httpCache");
 //        Log.d("OkHttp", "缓存目录---" + cacheFile.getAbsolutePath());
             Cache cache = new Cache(cacheFile, 1024 * 1024 * 50);
             builder.cache(cache);
