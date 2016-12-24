@@ -8,3 +8,14 @@
 /captures
 /local.properties
 .externalNativeBuild
+libs/
+src/androidTest/
+src/main/cpp/
+src/main/java/com/bb/zing/common/activity/web/
+src/main/java/com/bb/zing/common/service/
+src/main/java/com/bb/zing/login/
+src/main/java/com/bb/zing/welcome/
+src/main/java/com/bb/zing/zf/
+src/main/res/
+src/test/
+src/main/res/drawable/

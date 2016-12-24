@@ -45,6 +45,9 @@ dependencies {
     compile 'com.squareup.okhttp3:okhttp:+'
 //    OKHttp日志组件
     compile 'com.squareup.okhttp3:logging-interceptor:+'
+//    注解方式进行对象申明
+    compile 'com.jakewharton:butterknife:+'
+    annotationProcessor 'com.jakewharton:butterknife-compiler:+'
 
     testCompile 'junit:junit:4.12'
 }

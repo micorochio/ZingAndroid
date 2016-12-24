@@ -12,14 +12,15 @@
 + ndk 13.1+
 
 > **使用的开源代码们**
-+ xUtils的DB模块
-+ rxAndroid
-+ rxJava
-+ retrofit2
-+ GSON
-+ fresco
-+ OKHttp
++ [xUtils的DB模块](http://www.oschina.net/p/xutils)
++ [rxAndroid](https://github.com/ReactiveX/RxJava/wiki)
++ [rxJava](https://github.com/ReactiveX/RxJava/wiki)
++ [retrofit2](https://square.github.io/retrofit/)
++ [GSON](https://github.com/google/gson)
++ [fresco](http://fresco-cn.org/)
++ [OKHttp](http://square.github.io/okhttp/)
 + [PersistentCookieJar](https://github.com/franmontiel/PersistentCookieJar/blob/master/README.md) OKHttp的cookie管理工具
++ [Butter Knife](http://jakewharton.github.io/butterknife/)
 
 # 代码规范
 + 代码按功能模块划分，不同功能模块建立功能名称文件夹,参照前人的代码
@@ -61,7 +62,7 @@
 # 数据库模块的使用方法
 xUtils的DB模块使用方法一样（因为原来的xUtil对Android6以上的支持不太好，所以只抽出DB模块）
 需要数据库读写权限！
-```Java
+```java
 @RunWith(AndroidJUnit4.class)
 public class ExampleInstrumentedTest {
     public static final String TAG = "ExampleInstrumentedTest";
